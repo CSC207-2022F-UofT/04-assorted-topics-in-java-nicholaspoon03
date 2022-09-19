@@ -49,10 +49,12 @@ public class Trader<T> {
     /* TODO: Implement the method addToWishlist that takes an
      *       object of type T and adds it to this Trader's wishlist.
      */
-    public void addToWishList(T newObject) {
+//    public void addToWishList(T newObject) {
+//        this.wishlist.add(newObject);
+//    }
+    public void addToWishlist(T newObject) {
         this.wishlist.add(newObject);
     }
-
 
 
 
@@ -152,5 +154,6 @@ public class Trader<T> {
     public List<T> getInventory(){
         return this.inventory;
     }
+
 
 }
